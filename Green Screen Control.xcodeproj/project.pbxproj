@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		105B953726D1C87000FE8E00 /* Green_Screen_ControlApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B953626D1C87000FE8E00 /* Green_Screen_ControlApp.swift */; };
+		105B953926D1C87000FE8E00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B953826D1C87000FE8E00 /* ContentView.swift */; };
+		105B953B26D1C87100FE8E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 105B953A26D1C87100FE8E00 /* Assets.xcassets */; };
+		105B953E26D1C87100FE8E00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 105B953D26D1C87100FE8E00 /* Preview Assets.xcassets */; };
+		105B954926D1C87100FE8E00 /* Green_Screen_ControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B954826D1C87100FE8E00 /* Green_Screen_ControlTests.swift */; };
+		105B955426D1C87100FE8E00 /* Green_Screen_ControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 105B955326D1C87100FE8E00 /* Green_Screen_ControlUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		105B954526D1C87100FE8E00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 105B952B26D1C87000FE8E00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 105B953226D1C87000FE8E00;
+			remoteInfo = "Green Screen Control";
+		};
+		105B955026D1C87100FE8E00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 105B952B26D1C87000FE8E00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 105B953226D1C87000FE8E00;
+			remoteInfo = "Green Screen Control";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		105B953326D1C87000FE8E00 /* Green Screen Control.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Green Screen Control.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		105B953626D1C87000FE8E00 /* Green_Screen_ControlApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Green_Screen_ControlApp.swift; sourceTree = "<group>"; };
+		105B953826D1C87000FE8E00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		105B953A26D1C87100FE8E00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		105B953D26D1C87100FE8E00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		105B953F26D1C87100FE8E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		105B954426D1C87100FE8E00 /* Green Screen ControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Green Screen ControlTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		105B954826D1C87100FE8E00 /* Green_Screen_ControlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Green_Screen_ControlTests.swift; sourceTree = "<group>"; };
+		105B954A26D1C87100FE8E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		105B954F26D1C87100FE8E00 /* Green Screen ControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Green Screen ControlUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		105B955326D1C87100FE8E00 /* Green_Screen_ControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Green_Screen_ControlUITests.swift; sourceTree = "<group>"; };
+		105B955526D1C87100FE8E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		105B953026D1C87000FE8E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105B954126D1C87100FE8E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105B954C26D1C87100FE8E00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		105B952A26D1C87000FE8E00 = {
+			isa = PBXGroup;
+			children = (
+				105B953526D1C87000FE8E00 /* Green Screen Control */,
+				105B954726D1C87100FE8E00 /* Green Screen ControlTests */,
+				105B955226D1C87100FE8E00 /* Green Screen ControlUITests */,
+				105B953426D1C87000FE8E00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		105B953426D1C87000FE8E00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				105B953326D1C87000FE8E00 /* Green Screen Control.app */,
+				105B954426D1C87100FE8E00 /* Green Screen ControlTests.xctest */,
+				105B954F26D1C87100FE8E00 /* Green Screen ControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		105B953526D1C87000FE8E00 /* Green Screen Control */ = {
+			isa = PBXGroup;
+			children = (
+				105B953626D1C87000FE8E00 /* Green_Screen_ControlApp.swift */,
+				105B953826D1C87000FE8E00 /* ContentView.swift */,
+				105B953A26D1C87100FE8E00 /* Assets.xcassets */,
+				105B953F26D1C87100FE8E00 /* Info.plist */,
+				105B953C26D1C87100FE8E00 /* Preview Content */,
+			);
+			path = "Green Screen Control";
+			sourceTree = "<group>";
+		};
+		105B953C26D1C87100FE8E00 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				105B953D26D1C87100FE8E00 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		105B954726D1C87100FE8E00 /* Green Screen ControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				105B954826D1C87100FE8E00 /* Green_Screen_ControlTests.swift */,
+				105B954A26D1C87100FE8E00 /* Info.plist */,
+			);
+			path = "Green Screen ControlTests";
+			sourceTree = "<group>";
+		};
+		105B955226D1C87100FE8E00 /* Green Screen ControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				105B955326D1C87100FE8E00 /* Green_Screen_ControlUITests.swift */,
+				105B955526D1C87100FE8E00 /* Info.plist */,
+			);
+			path = "Green Screen ControlUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		105B953226D1C87000FE8E00 /* Green Screen Control */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 105B955826D1C87100FE8E00 /* Build configuration list for PBXNativeTarget "Green Screen Control" */;
+			buildPhases = (
+				105B952F26D1C87000FE8E00 /* Sources */,
+				105B953026D1C87000FE8E00 /* Frameworks */,
+				105B953126D1C87000FE8E00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Green Screen Control";
+			productName = "Green Screen Control";
+			productReference = 105B953326D1C87000FE8E00 /* Green Screen Control.app */;
+			productType = "com.apple.product-type.application";
+		};
+		105B954326D1C87100FE8E00 /* Green Screen ControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 105B955B26D1C87100FE8E00 /* Build configuration list for PBXNativeTarget "Green Screen ControlTests" */;
+			buildPhases = (
+				105B954026D1C87100FE8E00 /* Sources */,
+				105B954126D1C87100FE8E00 /* Frameworks */,
+				105B954226D1C87100FE8E00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				105B954626D1C87100FE8E00 /* PBXTargetDependency */,
+			);
+			name = "Green Screen ControlTests";
+			productName = "Green Screen ControlTests";
+			productReference = 105B954426D1C87100FE8E00 /* Green Screen ControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		105B954E26D1C87100FE8E00 /* Green Screen ControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 105B955E26D1C87100FE8E00 /* Build configuration list for PBXNativeTarget "Green Screen ControlUITests" */;
+			buildPhases = (
+				105B954B26D1C87100FE8E00 /* Sources */,
+				105B954C26D1C87100FE8E00 /* Frameworks */,
+				105B954D26D1C87100FE8E00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				105B955126D1C87100FE8E00 /* PBXTargetDependency */,
+			);
+			name = "Green Screen ControlUITests";
+			productName = "Green Screen ControlUITests";
+			productReference = 105B954F26D1C87100FE8E00 /* Green Screen ControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		105B952B26D1C87000FE8E00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					105B953226D1C87000FE8E00 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					105B954326D1C87100FE8E00 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 105B953226D1C87000FE8E00;
+					};
+					105B954E26D1C87100FE8E00 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 105B953226D1C87000FE8E00;
+					};
+				};
+			};
+			buildConfigurationList = 105B952E26D1C87000FE8E00 /* Build configuration list for PBXProject "Green Screen Control" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 105B952A26D1C87000FE8E00;
+			productRefGroup = 105B953426D1C87000FE8E00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				105B953226D1C87000FE8E00 /* Green Screen Control */,
+				105B954326D1C87100FE8E00 /* Green Screen ControlTests */,
+				105B954E26D1C87100FE8E00 /* Green Screen ControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		105B953126D1C87000FE8E00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105B953E26D1C87100FE8E00 /* Preview Assets.xcassets in Resources */,
+				105B953B26D1C87100FE8E00 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105B954226D1C87100FE8E00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105B954D26D1C87100FE8E00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		105B952F26D1C87000FE8E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105B953926D1C87000FE8E00 /* ContentView.swift in Sources */,
+				105B953726D1C87000FE8E00 /* Green_Screen_ControlApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105B954026D1C87100FE8E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105B954926D1C87100FE8E00 /* Green_Screen_ControlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		105B954B26D1C87100FE8E00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105B955426D1C87100FE8E00 /* Green_Screen_ControlUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		105B954626D1C87100FE8E00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 105B953226D1C87000FE8E00 /* Green Screen Control */;
+			targetProxy = 105B954526D1C87100FE8E00 /* PBXContainerItemProxy */;
+		};
+		105B955126D1C87100FE8E00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 105B953226D1C87000FE8E00 /* Green Screen Control */;
+			targetProxy = 105B955026D1C87100FE8E00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		105B955626D1C87100FE8E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		105B955726D1C87100FE8E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		105B955926D1C87100FE8E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Green Screen Control/Preview Content\"";
+				DEVELOPMENT_TEAM = 6232MX4759;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Green Screen Control/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "robertwiebe.Green-Screen-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		105B955A26D1C87100FE8E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Green Screen Control/Preview Content\"";
+				DEVELOPMENT_TEAM = 6232MX4759;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Green Screen Control/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "robertwiebe.Green-Screen-Control";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		105B955C26D1C87100FE8E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6232MX4759;
+				INFOPLIST_FILE = "Green Screen ControlTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "robertwiebe.Green-Screen-ControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Green Screen Control.app/Green Screen Control";
+			};
+			name = Debug;
+		};
+		105B955D26D1C87100FE8E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6232MX4759;
+				INFOPLIST_FILE = "Green Screen ControlTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "robertwiebe.Green-Screen-ControlTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Green Screen Control.app/Green Screen Control";
+			};
+			name = Release;
+		};
+		105B955F26D1C87100FE8E00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6232MX4759;
+				INFOPLIST_FILE = "Green Screen ControlUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "robertwiebe.Green-Screen-ControlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Green Screen Control";
+			};
+			name = Debug;
+		};
+		105B956026D1C87100FE8E00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6232MX4759;
+				INFOPLIST_FILE = "Green Screen ControlUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "robertwiebe.Green-Screen-ControlUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Green Screen Control";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		105B952E26D1C87000FE8E00 /* Build configuration list for PBXProject "Green Screen Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105B955626D1C87100FE8E00 /* Debug */,
+				105B955726D1C87100FE8E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		105B955826D1C87100FE8E00 /* Build configuration list for PBXNativeTarget "Green Screen Control" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105B955926D1C87100FE8E00 /* Debug */,
+				105B955A26D1C87100FE8E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		105B955B26D1C87100FE8E00 /* Build configuration list for PBXNativeTarget "Green Screen ControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105B955C26D1C87100FE8E00 /* Debug */,
+				105B955D26D1C87100FE8E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		105B955E26D1C87100FE8E00 /* Build configuration list for PBXNativeTarget "Green Screen ControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				105B955F26D1C87100FE8E00 /* Debug */,
+				105B956026D1C87100FE8E00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 105B952B26D1C87000FE8E00 /* Project object */;
+}
