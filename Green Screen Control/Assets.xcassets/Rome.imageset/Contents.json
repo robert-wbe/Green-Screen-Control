@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "196393_rome-coliseum-iphone-5-6-wallpapers-ipod-wallpapers_1080x1920_h.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
